@@ -1,0 +1,67 @@
+-- select AgeGroup, PatientSex, C,count(*) from AutocareHCB.dbo.Patient where PatientSex='남' group by AgeGroup, PatientSex
+
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C018', round(avg(cast(C018 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C022', round(avg(cast(C022 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C023', round(avg(cast(C023 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C024', round(avg(cast(C024 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C026', round(avg(cast(C026 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C027', round(avg(cast(C027 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C029', round(avg(cast(C029 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C030', round(avg(cast(C030 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C032', round(avg(cast(C032 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C037', round(avg(cast(C037 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C038', round(avg(cast(C038 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C039', round(avg(cast(C039 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C054', round(avg(cast(C054 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C904', round(avg(cast(C904 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'E001', round(avg(cast(E001 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'GP01', round(avg(cast(GP01 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'GP02', round(avg(cast(GP02 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I022', round(avg(cast(I022 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I105', round(avg(cast(I105 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I348', round(avg(cast(I348 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I349', round(avg(cast(I349 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I502', round(avg(cast(I502 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I503', round(avg(cast(I503 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I521', round(avg(cast(I521 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP00', round(avg(cast(TP00 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP01', round(avg(cast(TP01 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP02', round(avg(cast(TP02 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP07', round(avg(cast(TP07 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP08', round(avg(cast(TP08 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'U008', round(avg(cast(U008 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='남' group by AgeGroup, PatientSex order by AgeGroup
+
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C018', round(avg(cast(C018 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C022', round(avg(cast(C022 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C023', round(avg(cast(C023 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C024', round(avg(cast(C024 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C026', round(avg(cast(C026 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C027', round(avg(cast(C027 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C029', round(avg(cast(C029 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C030', round(avg(cast(C030 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C032', round(avg(cast(C032 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C037', round(avg(cast(C037 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C038', round(avg(cast(C038 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C039', round(avg(cast(C039 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C054', round(avg(cast(C054 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'C904', round(avg(cast(C904 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'E001', round(avg(cast(E001 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'GP01', round(avg(cast(GP01 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'GP02', round(avg(cast(GP02 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I022', round(avg(cast(I022 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I105', round(avg(cast(I105 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I348', round(avg(cast(I348 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I349', round(avg(cast(I349 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I502', round(avg(cast(I502 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I503', round(avg(cast(I503 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'I521', round(avg(cast(I521 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP00', round(avg(cast(TP00 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP01', round(avg(cast(TP01 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP02', round(avg(cast(TP02 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP07', round(avg(cast(TP07 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'TP08', round(avg(cast(TP08 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+-- insert into autocarehcb.dbo.Candidate select agegroup, patientSex, 'U008', round(avg(cast(U008 as float)), 1) from AutocareHCB.dbo.onlyPreprocessed where PatientSex='여' group by AgeGroup, PatientSex order by AgeGroup
+
+select * from AutocareHCB.dbo.Candidate
+-- select analysis_index, PatientSex, sum(AgeGroup) from AutocareHCB.dbo.Candidate
+-- group by analysis_index, PatientSex

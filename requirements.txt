@@ -1,0 +1,12 @@
+pyqt5
+pyqt5-tools
+mssql
+flask
+flask_cors
+schedule
+pandas
+numpy
+tqdm
+scikit-learn
+
+
