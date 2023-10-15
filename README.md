@@ -92,7 +92,7 @@ hanshin-medipia/
 
 ### 한신메디피아 개발환경
 
-
+보안상 삭제
 
 -----
 
@@ -100,4 +100,6 @@ hanshin-medipia/
 
 
 ![image](https://user-images.githubusercontent.com/116786798/232376042-44b02efc-73c5-43bf-8022-082a47a54983.png)
+
+### 리팩토링 목표 : Docker containerizing, 된다면 kubernates도 사용해보기
 
